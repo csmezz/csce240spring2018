@@ -17,5 +17,8 @@ using std::endl;
 // arguments provided.
 int main (int argc, char** argv) {
   cout << "Hello World" << endl;
+
+  // This is an exit code for the main function, this can be useful depending on
+  // how the 
   return 0;
 }

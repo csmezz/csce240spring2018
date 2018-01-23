@@ -1,0 +1,42 @@
+#*******************************************************************************
+# Copyright Judson James
+#*******************************************************************************
+
+#*******************************************************************************
+# What a vimrc is
+A vimrc is a file that helps configure Vim (Vi IMproved) to make it more user-
+friendly and also reduce the time to develop using Vim/Vi
+
+Vim is by nature one of the most hackable text-editors available, and each line
+of the vimrc can change the entire interface. For example "set number" adds
+line numbers to the editor, this was actually mind-blowing for a student in a
+previous section of CSCE 240.
+
+#*******************************************************************************
+# Why you should use the vimrc
+I've moved on to using Atom for my SI Sessions, however, if you're say, a
+Windows user who has to remotely log into the machines and have to program from
+outside the host machine.
+A vimrc will make some mistakes preventable, such as how un-closed brackets
+will be highlighted, syntax highlighting, and other minute things that actually
+help the development process.
+
+#*******************************************************************************
+# How to use it
+1) Clone the repository by running the following command:
+    git clone https://github.com/csmezz/csce240spring2018/
+2) From outside the repository, run the following command:
+    cp csce240spring2018/useful_files/.vimrc ~
+
+This file is hidden from your normal "ls" command list, so you will have to
+use "ls -a" to confirm that it moved to the root (home) directory. Now that
+the file is at the root of your user directory, it will apply to all
+instances of Vim that you open henceforth that fall under that directory,
+along with the children of that directory.
+
+#******************************************************************************
+# How to modify it
+To modify it, only use the commands that you know exact function of, you run
+  vi ~/.vimrc
+and modify whatever lines you would like. Once you save and exit the file, all
+changes to the vimrc will apply once you've opened a new instance of vim.
