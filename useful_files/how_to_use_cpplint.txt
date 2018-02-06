@@ -1,0 +1,23 @@
+#*******************************************************************************
+# Copyright (c) Judson James
+#*******************************************************************************
+
+#*******************************************************************************
+# What is cpplint?
+cpplint is a Python script made by Google that automatically checks your .cc
+files for any problems with the style of your code. This does not fix your
+errors. It simply lets you know what infractions have taken place.
+Given that it is written in Python, you need to have Python installed. Most
+variations of UNIX/Linux/Mac have Python installed by default, but if cpplint
+throws an error, you know why.
+Python 2.7 seems to be the most consistent interpreter for cpplint, errors have
+shown up in Python 3.6, so check your Python libraries to be safe.
+
+#*******************************************************************************
+# How do I install it?
+Luckily for you, I've written two scripts that do a (rather mundane) job of
+"installing" the cpplint program to your Linux/Mac machine. Since the homeworks
+will be tested on Linux machines, I am not making one for Windows.
+I've made the scripts as easy to use as possible, so you simply need to do:
+./install_cpplint_<your_os>.sh
+And it will work as an alias to your shell.
