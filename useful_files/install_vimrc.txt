@@ -3,4 +3,10 @@
 # Installation script for the vimrc provided for students in CSCE 240
 #*******************************************************************************
 
+cd ~
+git clone https://github.com/csmezz/csce240spring2018
+
+cd csce240spring2018/useful_files/
 cp /.vimrc ~/
+
+echo "Successfully installed Judson's vimrc"
