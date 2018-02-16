@@ -256,4 +256,7 @@ void TestToComplex() {
     cout << "\tExpected: " << test_five << "\tRecieved: " << complex_five;
     ++fails;
   }
+  
+  cout << "Passed " << passes << " out of " << (passes+fails) << endl;
+
 }
