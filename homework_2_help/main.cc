@@ -257,6 +257,6 @@ void TestToComplex() {
     ++fails;
   }
   
-  cout << "Passed " << passes << " out of " << (passes+fails) << endl;
+  cout << "\tPassed " << passes << " out of " << (passes+fails) << endl;
 
 }
